@@ -1,0 +1,49 @@
+.container {
+  background-color: black;
+  opacity: 0.7;
+  padding: 16px;
+}
+.container-img {
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container h1 {
+  color: #ea580c;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.content p {
+  font-size: 18px;
+}
+.content-btns {
+  display: flex;
+  justify-content: space-between;
+  margin: 2px 4px;
+}
+.btn {
+  border-radius: 6px;
+  transition: 0.3s;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+.btn-view {
+  background-color: #164e63;
+}
+.btn-code {
+  background-color: transparent;
+  border: 1px solid white;
+}
+.btn-code:hover {
+  background-color: white;
+  color: black;
+}
+.btn-view:hover {
+  background-color: #2f748d;
+}

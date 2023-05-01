@@ -1,0 +1,20 @@
+.hero-img {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* height: 100vh; */
+  position: relative;
+}
+.hero-img::before {
+  content: "";
+  background: url("https://previews.123rf.com/images/puhhha/puhhha1807/puhhha180700880/105984971-programmer-coding-on-holographic-display-man-creating-app-programming-software-on-computer-high.jpg");
+  background-position: center top;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: #000;
+  opacity: 0.3;
+}

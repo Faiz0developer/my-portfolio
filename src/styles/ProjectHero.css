@@ -1,0 +1,19 @@
+.hero-img1 {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+.hero-img1::before {
+  content: "";
+  background: url("https://www.hs-bremen.de/assets/hsb/de/_processed_/2/4/csm_DI_Data_Science_Grundlagen_f%C3%BCr_die_Praxis_8b0b264484.jpg");
+  background-position: center top;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: #000;
+  opacity: 0.8;
+}
