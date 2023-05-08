@@ -8,12 +8,46 @@ import Shopweb from "../../assets/shop.png";
 import Expense from "../../assets/expense.png";
 import Monument from "../../assets/monument.png";
 import Ecomweb from "../../assets/ecom.png";
+import ReactNav from "../../assets/react-navigationpng.png";
 import "../../styles/WorkCard.css";
 import { Link } from "react-router-dom";
 
 const WorkCard = () => {
   return (
     <>
+      <div className="container">
+        <strong>
+          <h1>React Navigation</h1>
+        </strong>
+        <img
+          src={ReactNav}
+          alt="React Navigation app"
+          className="container-img"
+        />
+        <div className="content">
+          <p>
+            This is a landing page of well known navigation website 'React
+            Navigation'. This UI is design using <b> React </b>and decorate it
+            using
+            <b> Tailwind css</b>.
+          </p>
+          <div className="content-btns">
+            <Link
+              to={"https://react-navigation-swart.vercel.app/"}
+              target="_blank"
+            >
+              <button className="btn btn-view">View</button>
+            </Link>
+
+            <Link
+              to={"https://github.com/Faiz0developer/react-navigation"}
+              target="_blank"
+            >
+              <button className="btn btn-code">Code</button>
+            </Link>
+          </div>
+        </div>
+      </div>
       <div className="container">
         <strong>
           <h1>Bitfinex</h1>
