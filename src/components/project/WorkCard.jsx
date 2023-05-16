@@ -9,13 +9,43 @@ import Expense from "../../assets/expense.png";
 import Monument from "../../assets/monument.png";
 import Ecomweb from "../../assets/ecom.png";
 import ReactNav from "../../assets/react-navigationpng.png";
+import Bankist from "../../assets/bankist.png";
 import "../../styles/WorkCard.css";
 import { Link } from "react-router-dom";
 
 const WorkCard = () => {
   return (
     <>
-      <div className="container">
+      <div className="container container-left">
+        <strong>
+          <h1>Bankist</h1>
+        </strong>
+        <img
+          src={Bankist}
+          alt="Logo of bankist app"
+          className="container-img"
+        />
+        <div className="content">
+          <p>
+            This is a bank website having different different nice features. I
+            learn a lot from this project. <b>Javascript</b> used for this
+            project.
+          </p>
+          <div className="content-btns">
+            <Link to={"https://bankist-app-ebon.vercel.app/"} target="_blank">
+              <button className="btn btn-view">View</button>
+            </Link>
+
+            <Link
+              to={"https://github.com/Faiz0developer/bankist-app"}
+              target="_blank"
+            >
+              <button className="btn btn-code">Code</button>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="container container-right">
         <strong>
           <h1>React Navigation</h1>
         </strong>
@@ -48,7 +78,7 @@ const WorkCard = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container container-left">
         <strong>
           <h1>Bitfinex</h1>
         </strong>
@@ -77,7 +107,7 @@ const WorkCard = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container container-right">
         <strong>
           <h1>Taskify</h1>
         </strong>
@@ -103,7 +133,7 @@ const WorkCard = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container container-left">
         <strong>
           <h1>WeatherWen</h1>
         </strong>
@@ -132,7 +162,7 @@ const WorkCard = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container container-right">
         <strong>
           <h1>Shopify</h1>
         </strong>
@@ -161,7 +191,7 @@ const WorkCard = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container container-left">
         <strong>
           <h1>Fitness One</h1>
         </strong>
@@ -190,7 +220,7 @@ const WorkCard = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container container-right">
         <strong>
           <h1>Shopping Website</h1>
         </strong>
@@ -215,7 +245,7 @@ const WorkCard = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container container-left">
         <strong>
           <h1>My Expense</h1>
         </strong>
@@ -243,7 +273,7 @@ const WorkCard = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container container-right">
         <strong>
           <h1>Monument Trip</h1>
         </strong>
@@ -269,7 +299,7 @@ const WorkCard = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container container-left">
         <strong>
           <h1>Ecom. Website</h1>
         </strong>

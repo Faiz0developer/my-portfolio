@@ -5,7 +5,7 @@
 }
 .hero-img1::before {
   content: "";
-  background: url("https://www.hs-bremen.de/assets/hsb/de/_processed_/2/4/csm_DI_Data_Science_Grundlagen_f%C3%BCr_die_Praxis_8b0b264484.jpg");
+  background: url("https://previews.123rf.com/images/puhhha/puhhha1802/puhhha180200810/96381581-team-of-programmers-working-on-computer-in-office-young-beautiful-people-working-on-project.jpg");
   background-position: center top;
   background-size: cover;
   height: 100%;
@@ -16,4 +16,25 @@
   z-index: -1;
   background-color: #000;
   opacity: 0.8;
+}
+.highlight {
+  background-image: linear-gradient(to top left, #39b385, #9be15d);
+  transform: scale(1.07, 1.05) skewX(-15deg);
+  animation-name: leftSlide;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-timing-function: ease-out;
+}
+
+.highlight-1 {
+  background-image: linear-gradient(to top left, #ffd89b, #19547b);
+  transform: scale(1.07, 1.05) skewX(-15deg);
+}
+@keyframes leftSlide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100px);
+  }
 }
