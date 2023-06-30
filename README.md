@@ -14,7 +14,7 @@ In ABOUT section people will get know about educations and skills.
 
 In PROJECT section I added my all projects. I added "VIEW" and "CODE" buttons to each card of project.
 
-'CODE' button will redirect you to the live project.
+'VIEW' button will redirect you to the live project.
 
 'CODE' button will redirect you to the github,where I have push my code.
 
