@@ -1,4 +1,5 @@
-                                            Title: my-portfolio
+                                               Title: 
+                                            #my-portfolio
 
                                               Description
 
@@ -18,7 +19,7 @@ In PROJECT section I added my all projects. I added "VIEW" and "CODE" buttons to
 
 'CODE' button will redirect you to the github,where I have push my code.
 
-Language : 'I use ReactJs' for this app and tailwind CSS for styling.
+Language : 'I use ReactJs' (A Javascript library) for this app and tailwind CSS for styling.
 
 
 This project will be updated time to time as I will gain more skills and make some more projects in future.
